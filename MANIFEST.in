@@ -1,0 +1,12 @@
+# MANIFEST.in
+global-exclude *.pyx
+global-exclude *.py
+global-exclude *.c
+global-exclude *.cpp
+global-exclude *.pxd
+global-exclude *.pyd
+global-exclude *.so
+
+# Then selectively re-include only binaries
+include powpow/*.cpython-*.so
+include powpow/*.cp*.pyd

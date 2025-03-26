@@ -1,0 +1,9 @@
+asyncpg
+Cython
+numpy
+openai
+sentence-transformers
+torch
+transformers
+pgvector
+python-dotenv

@@ -1,0 +1,27 @@
+# Ignore compiled output
+*.c
+*.cpp
+*.py
+*.pyo
+*.pdb
+*.pyc
+__pycache__/
+*.egg-info/
+build/
+dist/
+
+# Ignore source-level Cython files
+*.pyx
+*.pxd
+
+# Ignore virtual environments
+.venv/
+env/
+venv/
+
+# PyCharm/IDE
+.idea/
+*.iml
+
+# Ignore wheel cache
+*.whl
